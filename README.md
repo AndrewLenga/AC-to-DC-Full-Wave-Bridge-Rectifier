@@ -28,6 +28,7 @@ R1	2.2kΩ	LED Current Limiting Resistor
 R2	10kΩ	Bleeder Resistor (Safety)
 D5	LED	Power Indicator
 J1, J2	Screw Terminal	Input/Output Connectors
-##⚠️ Safety Information
+
+⚠️ Safety Information
 Ensure the input voltage does not exceed the voltage rating of the 1000µF capacitor.
 Always verify the polarity of the capacitor (C1) and LED (D5) before applying power to avoid component failure.
