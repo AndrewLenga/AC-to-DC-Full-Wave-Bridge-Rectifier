@@ -1,6 +1,6 @@
 # AC-to-DC-Full-Wave-Bridge-Rectifier
 This repository contains the schematic and documentation for a standard Full-Wave Bridge Rectifier with a capacitive filter. This circuit is designed to convert an alternating current (AC) input into a steady, filtered direct current (DC) output suitable for powering electronic devices.
-🛠 Circuit Breakdown
+##🛠 Circuit Breakdown
 The circuit is divided into four primary stages that process the electrical signal from "raw" AC to stable DC.
 1. Input Stage
 Component: J1 (Screw Terminal)
@@ -18,7 +18,7 @@ Component D5 (LED) & R1 (2.2kΩ Resistor): Serves as a "Power On" indicator. R1 
 Component J2 (Screw Terminal): The final DC output point. Unlike the input, this terminal has fixed polarity:
 Pin 1: Positive (+VE)
 Pin 2: Ground (GND)
-📋 Component List
+##📋 Component List
 Reference	Value/Model	Description
 D1 - D4	1N4007	Rectifier Diodes (1A, 1000V)
 C1	1000µF	Electrolytic Filter Capacitor
@@ -26,6 +26,6 @@ R1	2.2kΩ	LED Current Limiting Resistor
 R2	10kΩ	Bleeder Resistor (Safety)
 D5	LED	Power Indicator
 J1, J2	Screw Terminal	Input/Output Connectors
-⚠️ Safety Information
+##⚠️ Safety Information
 Ensure the input voltage does not exceed the voltage rating of the 1000µF capacitor.
 Always verify the polarity of the capacitor (C1) and LED (D5) before applying power to avoid component failure.
